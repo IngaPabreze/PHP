@@ -17,7 +17,6 @@
         <li><?php echo 'Miestas - '.$city; ?></li>
         <li><?php echo 'Populiacija - '.$population; ?></li>
     </ul>
-
 </body>
 </html>
 
