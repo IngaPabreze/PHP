@@ -17,9 +17,9 @@
 <body>
     <form action ="<?php $_PHP_SELF ?>"; method="get">
 <!--        klaida virsuj reikia php-->
-       Name: <input type="text" name="vardas">
-        Age: <input type="text" name="amzius">
-        <input type="submit" value="Send">
+       Name: <input type="text" name="vardas">;
+        Age: <input type="text" name="amzius">;
+        <input type="submit" value="Send">;
 
     </form>
 </body>
