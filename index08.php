@@ -18,13 +18,13 @@
         $auksciausios =  array_slice($temp,0,5);
         $zemiausios = array_slice($temp,-5,5);
         echo '<p> Aukščiausios temperatūros:<p>';
-         foreach ($auksciausios as $auksciausia){
-            echo $auksciausia.' ,';
-            };
+        echo implode(',',$auksciausios);
         echo '<p> Žemiausios temperatūros:<p>';
-         foreach ($zemiausios as $zemiausia){
-            echo $zemiausia.' ,';
-            };
+        echo implode(',',$zemiausios);
+//         foreach ($zemiausios as $zemiausia){
+//            echo $zemiausia.' ,';
+//            };
+
     ?>
 
 
