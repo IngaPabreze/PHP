@@ -24,8 +24,8 @@
     </ul>
     <?php print_r($cities2); ?>
     <ul>
-         <?php foreach ($cities2 as $miestas => $GyvSk ) :?>
-            <li><?= "Gyventojų skaičius: ".$GyvSk; ?></li>
+         <?php foreach ($cities2 as $gyvSk ) :?>
+            <li><?= 'Gyventojų skaičius: '.$gyvSk.' mln.'; ?></li>
         <?php endforeach; ?>
     </ul>
 

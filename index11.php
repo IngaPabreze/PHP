@@ -22,7 +22,7 @@
                 }
         }else{
             ?>
-                <form action ="<?php $_PHP_SELF ?>"; method="post">
+                <form action ="<?php $_PHP_SELF; ?>"; method="post">
                     <p> Įvesk ilgį: <input type="text" name="ilgis"></p>
                     <p> Įvesk plotį: <input type="text" name="plotis"></p>
                     <input type="submit" value="Send" name="mygtukas">
