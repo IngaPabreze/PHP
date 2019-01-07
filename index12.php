@@ -8,7 +8,7 @@
 
 <body>
     <?php
-        if(isset($_POST['name'])){
+        if(isset($_POST['mygtukas'])){
             if($_POST['name'] && $_POST['surname']){
                 echo  $_POST['name'].' '.$_POST['surname'];
                 }else{
@@ -16,7 +16,7 @@
                 }
         }else{
             ?>
-                <form action ="<?php $_PHP_SELF ?>"; method="post">
+                <form action ="<?php $_PHP_SELF; ?>"; method="post">
                     <p> Vardas: <input type="text" name="name"></p>
                     <p> Pavardė: <input type="text" name="surname"></p>
                     <input type="submit" value="Send" name="mygtukas">
