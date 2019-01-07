@@ -14,5 +14,4 @@ $asmuo2-> vardas='Dalia';
 $asmuo2-> pavarde='Dalyte';
 echo $asmuo1 -> labas();
 echo $asmuo2 -> labas();
-
 ?>
